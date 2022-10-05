@@ -147,7 +147,55 @@
 				</div>
 			</div>
 		</section>
+        <section class="reviews">
+			<div class="container">
+				<h2 class="section-title">Відгуки</h2>
+				<div class="reviews__slider">
+					<div class="reviews__item">
+						<p class="reviews__item-name">Дмитро</p>
+						<p class="reviews__item-text">Це ідеальний твір для осіннього самотнього вечора.</p>
+					</div>
+					<div class="reviews__item">
+						<p class="reviews__item-name">Оксана</p>
+						<p class="reviews__item-text">Желязни любить гратися з читачем, а тому дає йому шанс самому здогадатися про справжнє обличчя своїх персонажів.</p>
+					</div>
+					<div class="reviews__item">
+						<p class="reviews__item-name">Катерина</p>
+						<p class="reviews__item-text">Любителі пасхалок знайдуть тут для себе багато цікавого.</p>
+					</div>
+					<div class="reviews__item">
+						<p class="reviews__item-name">Микола</p>
+						<p class="reviews__item-text">Книгу я перечитував не раз і не два.</p>
+					</div>
+				</div>
+
+				<div class="reviews__form">
+					<p class="reviews__form"><strong>Які ваші враження від книги?</strong></p>
+					<form action="#">
+						<label>Ваше ім'я</label>
+						<input type="text" id="name" name="name" placeholder="Напишіть своє ім'я" required>
+						<fieldset>
+							<legend>Чи рекомендуватимете цю книгу друзям?</legend>
+							<label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Так</label>
+							<label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Ні</label>
+						</fieldset>
+						<fieldset>
+							<legend>Улюблений персонаж</legend>
+							<input id="dog" type="checkbox" name="character" value="dog" checked> <label for="dog">Нюх</label>
+							<input id="cat" type="checkbox" name="character" value="cat"> <label for="cat">Сірохвістка</label>
+							<input id="owl" type="checkbox" name="owl" value="owl"> <label for="owl">Ночовій</label>
+						</fieldset>
+						<p>Ваш коментар</p>
+						<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Ваш коментар..."></textarea>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
     </main>
+    <footer class="footer">
+        <p>© Ніч у самотньому жовтні. Жовтневий щоденник сторожового пса на ймення Нюх</p>
+</footer>
 </body>
 
 </html>
